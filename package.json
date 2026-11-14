@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-qa-buggy",
+  "version": "1.0.0",
+  "description": "Práctica - Aseguramiento de la Calidad del Software - Curso 048 - Buggy Cars Rating (https://buggy.justtestit.org/)",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep \"@smoke\"",
+    "test:auto": "playwright test --grep \"@auto\"",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
